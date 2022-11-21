@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="mentalhealth">
+
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.SEND_SMS" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+<uses-permission
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    android:maxSdkVersion="28" />
+<uses-permission android:name="android.permission.CALL_PHONE" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@drawable/iconn"
+    android:label="@string/app_name"
+    android:roundIcon="@drawable/iconn"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.ScreenMental">
+    <activity
+        android:name="com.example.mentalhealth.Uploads"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.MeditationActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.positivenotes.StroryList"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.positivenotes.Success"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.activities.SplashScreen"
+        android:exported="false" />
+<!--    <activity-->
+<!--        android:name="com.example.mentalhealth.activities.WelcomeScreen"-->
+<!--        android:exported="false" />-->
+    <activity
+        android:name="com.example.mentalhealth.activities.Select_registrationActivity"
+        android:exported="false"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.example.mentalhealth.activities.Counsellor_registration"
+        android:exported="false"
+        android:screenOrientation="portrait" />
+
+    <activity android:name="com.example.mentalhealth.player.FeedbackActivity" />
+    <activity android:name="com.example.mentalhealth.player.UploadMovie" />
+    <activity
+        android:name="com.example.mentalhealth.player.Fullscreen"
+        android:configChanges="keyboardHidden|orientation|screenSize" />
+
+    <activity
+        android:name="com.example.mentalhealth.activities.Login"
+        android:exported="false" />
+
+    <activity
+        android:name="com.example.mentalhealth.player.MainActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.player.WelcomeActivity"
+        android:exported="false" />
+
+    <activity
+        android:name="com.example.mentalhealth.activities.SplashActivity"
+        android:exported="false" />
+
+    <activity
+        android:name="com.example.mentalhealth.audio.MusicActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.audio.UploadSongActivity"
+        android:exported="false" />
+
+    <activity
+        android:name="com.example.mentalhealth.activities.ChatActivity"
+        android:exported="false" />
+
+
+    <activity
+        android:name="com.example.mentalhealth.activities.Register"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.activities.Contact"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.anxiety.MusicActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.anxiety.UploadSongActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.Anxious.MusicActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.Anxious.UploadSongActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.sad.MusicActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.UploadSongs"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.sad.UploadSongActivity"
+        android:exported="false" />
+<!--    <activity-->
+<!--        android:name="com.example.mentalhealth.Games"-->
+<!--        android:exported="false" />-->
+    <activity
+        android:name="com.example.mentalhealth.Sleeping.MusicActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.Sleeping.UploadSongActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.Games"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.otp.LoginActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:windowSoftInputMode="adjustResize">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:name="com.example.mentalhealth.otp.Doctor_Registration_Activity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.otp.Patient_Registration_Activity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.MainActivityM"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.otp.MainActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.otp.ProfileActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.otp.Select_regestrationActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.photos.ViewMemes"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.videos.FeedbackActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.videos.Fullscreen"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.videos.MainActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.videos.UploadMovie"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.videos.WelcomeActivity"
+        android:exported="false" />
+    <activity
+        android:name="com.example.mentalhealth.photos.MemesUploadActivity"
+        android:exported="false" />
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="@string/add_app_id" />
+</application>
+
+</manifest>

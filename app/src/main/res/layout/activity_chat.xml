@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:fontFamily="@font/loramedium"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Log in"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Linear_layout"
+        android:layout_below="@id/toolbar"
+        />
+    <LinearLayout
+        android:id="@+id/Linear_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginBottom="5dp"
+        >
+        <EditText
+            android:id="@+id/messagebox"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Type a message"
+            android:layout_weight="85"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/message_box_background"
+            />
+        <ImageView
+            android:id="@+id/btnsent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/send"
+           android:layout_weight="20"/>
+    </LinearLayout>
+</RelativeLayout>

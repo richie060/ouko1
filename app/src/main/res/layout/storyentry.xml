@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:padding="10dp"
+    android:layout_margin="0dp"
+    app:cardCornerRadius="19dp"
+    >
+
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview_ShowStory"
+        >
+        <ImageView
+            android:id="@+id/applogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/note"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="-25dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:background="#ADC1AE"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/storys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+                android:layout_gravity="center"
+                android:paddingRight="7dp"
+                android:padding="10dp"
+                android:paddingLeft="7dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

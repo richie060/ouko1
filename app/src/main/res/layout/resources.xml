@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="#fff"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/welcomemessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/loramedium"
+                    android:text=""
+                    android:textColor="#393e46"
+                    android:textSize="15sp" />
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:layout_marginTop="1dp"-->
+                <!--                    android:text="Resources Module"-->
+                <!--                    android:textColor="#000"-->
+                <!--                    android:textSize="20sp"-->
+                <!--                    android:textStyle="bold" />-->
+            </LinearLayout>
+
+        </RelativeLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginBottom="2dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/memes"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="130dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingTop="10dp"-->
+<!--                app:cardBackgroundColor="#ADC1AE"-->
+<!--                app:cardCornerRadius="10dp"-->
+<!--                app:cardElevation="0dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:background="@drawable/meme"-->
+<!--                        android:padding="10dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:text="Memes\n(Photos)"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="16dp" />-->
+
+
+<!--                </LinearLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cardviewmemes"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="130dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingTop="10dp"-->
+<!--                app:cardBackgroundColor="#ADC1AE"-->
+<!--                app:cardCornerRadius="10dp"-->
+<!--                app:cardElevation="10dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:background="@drawable/video"-->
+<!--                        android:padding="10dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="2dp"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:text="Memes\n(Videos)"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="16dp" />-->
+
+<!--                </LinearLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/audiomusicH"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                app:cardBackgroundColor="#2196F3"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/audio"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Anxiety"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewmusicS"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                app:cardBackgroundColor="#2196F3"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/resources"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Sleeping"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/audiomusicAnx"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                app:cardBackgroundColor="#2196F3"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/resources"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Anxious"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewMeditation"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                app:cardBackgroundColor="#2196F3"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/resources"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Sad"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Upload"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:backgroundTint="@color/green"/>
+
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="20dp"-->
+        <!--            android:layout_marginRight="20dp"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/cardviewSongs"-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="130dp"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                android:layout_marginBottom="20dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:paddingTop="10dp"-->
+        <!--                app:cardBackgroundColor="#393e46"-->
+        <!--                app:cardCornerRadius="10dp"-->
+        <!--                app:cardElevation="10dp">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:gravity="center_horizontal"-->
+        <!--                    android:orientation="vertical">-->
+
+        <!--                    <ImageView-->
+        <!--                        android:layout_width="80dp"-->
+        <!--                        android:layout_height="70dp"-->
+        <!--                        android:background="@drawable/ic_playlist"-->
+        <!--                        android:padding="10dp" />-->
+
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="2dp"-->
+        <!--                        android:fontFamily="sans-serif-medium"-->
+        <!--                        android:text="Podcasts"-->
+        <!--                        android:textColor="#37e8c4"-->
+        <!--                        android:textSize="16dp" />-->
+
+
+        <!--                </LinearLayout>-->
+
+        <!--            </androidx.cardview.widget.CardView>-->
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/cardviewstories"-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="130dp"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                android:layout_marginBottom="20dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:paddingTop="10dp"-->
+        <!--                app:cardBackgroundColor="#393e46"-->
+        <!--                app:cardCornerRadius="10dp"-->
+        <!--                app:cardElevation="10dp">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:gravity="center_horizontal"-->
+        <!--                    android:orientation="vertical">-->
+
+        <!--                    <ImageView-->
+        <!--                        android:layout_width="80dp"-->
+        <!--                        android:layout_height="70dp"-->
+        <!--                        android:background="@drawable/meditation"-->
+        <!--                        android:padding="10dp" />-->
+
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="2dp"-->
+        <!--                        android:fontFamily="sans-serif-medium"-->
+        <!--                        android:text="Success Stories"-->
+        <!--                        android:textColor="#37e8c4"-->
+        <!--                        android:textSize="16dp" />-->
+        <!--                </LinearLayout>-->
+
+        <!--            </androidx.cardview.widget.CardView>-->
+
+
+        <!--        </LinearLayout>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="20dp"-->
+        <!--            android:layout_marginRight="20dp"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/cardviewResources"-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="130dp"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                android:layout_marginBottom="20dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:paddingTop="10dp"-->
+        <!--                app:cardBackgroundColor="#393e46"-->
+        <!--                app:cardCornerRadius="10dp"-->
+        <!--                app:cardElevation="10dp">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:gravity="center_horizontal"-->
+        <!--                    android:orientation="vertical">-->
+
+        <!--                    <ImageView-->
+        <!--                        android:layout_width="80dp"-->
+        <!--                        android:layout_height="70dp"-->
+        <!--                        android:background="@drawable/resources"-->
+        <!--                        android:padding="10dp" />-->
+
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="2dp"-->
+        <!--                        android:fontFamily="sans-serif-medium"-->
+        <!--                        android:text="Kidagaa"-->
+        <!--                        android:textColor="#37e8c4"-->
+        <!--                        android:textSize="16dp" />-->
+        <!--                </LinearLayout>-->
+
+        <!--            </androidx.cardview.widget.CardView>-->
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:id="@+id/cardviewMeditation"-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="130dp"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                android:layout_marginBottom="20dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:paddingTop="10dp"-->
+        <!--                app:cardBackgroundColor="#393e46"-->
+        <!--                app:cardCornerRadius="10dp"-->
+        <!--                app:cardElevation="10dp">-->
+
+        <!--                <LinearLayout-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="match_parent"-->
+        <!--                    android:gravity="center_horizontal"-->
+        <!--                    android:orientation="vertical">-->
+
+        <!--                    <ImageView-->
+        <!--                        android:layout_width="80dp"-->
+        <!--                        android:layout_height="70dp"-->
+        <!--                        android:background="@drawable/meditation"-->
+        <!--                        android:padding="10dp" />-->
+
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_marginTop="2dp"-->
+        <!--                        android:fontFamily="sans-serif-medium"-->
+        <!--                        android:text="Videos"-->
+        <!--                        android:textColor="#37e8c4"-->
+        <!--                        android:textSize="16dp" />-->
+        <!--                </LinearLayout>-->
+        <!--            </androidx.cardview.widget.CardView>-->
+        <!--        </LinearLayout>-->
+
+        <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+        <!--            android:id="@+id/addresource"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="right"-->
+        <!--            android:layout_marginLeft="20dp"-->
+        <!--            android:padding="4dp"-->
+        <!--            android:src="@drawable/ic_add"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent" />-->
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+

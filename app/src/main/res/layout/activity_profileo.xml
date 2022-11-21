@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:layout_height="match_parent"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        />
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_user_image"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon"
+        android:layout_marginTop="20dp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/profile_type"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:hint="Type"-->
+<!--        android:drawableLeft="@drawable/ic_profile"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#000"-->
+<!--        />-->
+
+
+
+
+    <TextView
+        android:id="@+id/profile_fullname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:hint="Full name"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:textSize="18sp"
+        android:textColor="#000"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/profile_Idno"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:drawableLeft="@drawable/ic_id"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:hint="Id number"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="#000"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/profile_PhoneNo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:hint="Phone No"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Sign  out"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"/>
+</LinearLayout>

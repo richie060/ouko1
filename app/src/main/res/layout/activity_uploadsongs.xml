@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    >
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/iconn"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select  To Upload"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000"
+        />
+<!--    <Button-->
+<!--        android:id="@+id/uploadSongs"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Upload Audio1"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        />-->
+    <Button
+        android:id="@+id/upload1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sleeping Audio"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/upload4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Relaxing Songs"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/upload2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Anxiety audios"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/upload3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sad"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:backgroundTint="@color/green"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/addcourse"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Add a Course "-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textColor="#fff"-->
+<!--        android:backgroundTint="@color/green"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/addmeme"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Upload Memes"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textColor="#fff"-->
+<!--        android:backgroundTint="@color/green"-->
+<!--        />-->
+
+
+</LinearLayout>

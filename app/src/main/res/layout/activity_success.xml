@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="0dp"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:layout_height="match_parent">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolBars"
+      android:elevation="4dp"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/green"
+      tools:ignore="MissingConstraints" />
+
+
+  <EditText
+      android:layout_marginLeft="20dp"
+      android:id="@+id/name"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_above="@id/email"
+      android:layout_marginTop="20dp"
+      android:layout_margin="10dp"
+      android:background="#ADC1AE"
+      android:hint="Your Name "
+      android:inputType="textEmailAddress"
+      android:padding="15dp"
+      android:textColor="#000"
+      android:textColorHint="@color/white"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.285"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+      tools:ignore="UnknownId" />
+
+
+  <EditText
+      android:layout_marginLeft="20dp"
+      android:id="@+id/email2"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_above="@id/email"
+      android:layout_marginTop="20dp"
+      android:layout_margin="10dp"
+      android:background="#ADC1AE"
+      android:hint="Category "
+      android:inputType="textEmailAddress"
+      android:padding="15dp"
+      android:textColor="#000"
+      android:textColorHint="@color/white"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.285"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+      tools:ignore="UnknownId" />
+
+  <EditText
+      android:id="@+id/feedback"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="20dp"
+      android:background="#ADC1AE"
+      android:layout_marginLeft="5dp"
+      android:gravity="top|left"
+      android:hint="Write your  note"
+      android:inputType="textMultiLine"
+      android:lines="8"
+      android:maxLines="10"
+      android:minLines="4"
+      android:padding="15dp"
+      android:scrollbars="vertical"
+      android:textColor="#000"
+      android:textColorHint="@color/white"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.067"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Name"
+      app:layout_constraintVertical_bias="0.0" />
+
+
+
+  <Button
+      android:id="@+id/btninsert"
+      android:layout_width="353dp"
+      android:layout_height="50dp"
+      android:layout_below="@id/feedback"
+      android:backgroundTint="@color/green"
+      android:text="Upload"
+      android:layout_marginLeft="20dp"
+      android:textColor="#000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/feedback"
+
+      tools:ignore="UnknownId" />
+
+
+</LinearLayout>

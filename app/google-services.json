@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812256582455",
+    "project_id": "ouko-63316",
+    "storage_bucket": "ouko-63316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812256582455:android:b64024265dd83f899058b2",
+        "android_client_info": {
+          "package_name": "com.example.mentalhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812256582455-foaibgl7j42gv3hm8eqhr80ln1dujooa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw0Lh1r6izkcFL7wJHkHfXUIGc6RMADN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812256582455-foaibgl7j42gv3hm8eqhr80ln1dujooa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
